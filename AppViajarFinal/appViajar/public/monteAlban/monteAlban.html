@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>        
+    <div class="container mt-5">
+        <div class="card">
+          <div class="position-relative">
+            <img src="../src/app/lugares/monteAlban/img/172521.png" class="imagen-lugar" alt="...">
+            <div class="card-title-overlay">MONTE ALBAN</div>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Descripcion general</h5>
+            <p class="card-text">Monte Albán, situado en una montaña con vistas panorámicas del Valle de Oaxaca, es un sitio arqueológico de gran importancia histórica. Fundado hace más de dos mil años, fue el centro político y ceremonial de la civilización zapoteca. Este impresionante complejo incluye una serie de plazas, pirámides, y estructuras ceremoniales que reflejan el avanzado conocimiento de ingeniería y astronomía de sus constructores. Entre sus características más destacadas se encuentran los Danzantes, misteriosas figuras talladas en piedra que aún hoy intrigan a los arqueólogos. Monte Albán no solo ofrece una visión profunda del pasado mesoamericano, sino que también proporciona una experiencia única para quienes desean explorar la rica herencia cultural de Oaxaca.</p>
+            <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="agregarInformacion(4)">Mas informacion</a>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="btn-group boton-color" role="group" aria-label="Horizontal radio toggle button group">   
+        <button type="button" class="btn btn-success btn-lg " data-bs-toggle="collapse" href="#collapseExample">Lugares</button>       
+        <a href="#" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modalTransporte">Transporte</a>
+    </div>     
+
+      <div class="collapse" id="collapseExample">
+        <div class="container">
+          <div class="card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="agregarInformacion(1)">
+            <img src="../src/app/lugares/monteAlban/restaurante/1.png" class="card-img-top img-lugares" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Casa Oaxaca el Restaurante
+            </h5>
+              <p class="card-text">Platos oaxaqueños modernos hechos con vegetales orgánicos y carnes de libre pastoreo que se sirven en un patio lujoso.</p>
+              <!-- <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Go somewhere</a> -->
+            </div>
+          </div>
+          <div class="card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="agregarInformacion(2)">
+            <img src="../src/app/lugares/monteAlban/hotel/image.png" class="card-img-top img-lugares" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Los Olivos Spa
+            </h5>
+              <p class="card-text">Bienvenidos al Hotel Los Olivos Spa, un refugio de lujo y confort. Nuestro hotel ofrece una combinación perfecta de elegancia moderna y hospitalidad clásica. Disfrute de nuestras habitaciones espaciosas y cuidadosamente decoradas.
+                <!-- <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Go somewhere</a> -->
+            </div>
+          </div>
+          <div class="card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="agregarInformacion(3)">
+            <img src="../src/app/lugares/monteAlban/cafeteria/image.png" class="card-img-top img-lugares" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cafe la casita de Naela </h5>
+              <p class="card-text">Bienvenidos a Café la casita de Naela, un rincón acogedor donde el aroma del café recién hecho y la calidez del ambiente se combinan para ofrecerte un espacio perfecto para relajarte.</p>
+              <!-- <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <h1>LOCALIZACION</h1><br>
+
+      <div>
+          <img src="../src/app/lugares/monteAlban/image.png" alt="" class="img-mapa">
+      </div>
+      
+
+      <!-- modal para mostrar la informacion del lugar -->
+      
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+
+              
+              
+                      </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-closes" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+              
+            <!-- modal para mostrar la informacion de trasporte  -->
+      
+            <div class="modal fade" id="modalTransporte" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTransporte" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title  titulo" id="staticBackdropLabel">DETALLES SOBRE EL TRANSPORTE HACIA LA ZONA TURISTICA DE MONTE ALBAN</h1>
+                    </div>
+                    <div class="modal-body" id="modal-body-content">
+                     <img src="../src/app/lugares/monteAlban/image.png" alt="">      
+                
+                    <div class="card mb-3 items" style="background-color:rgb(199, 243, 203);color: rgb(0, 0, 0); font-size: 15pt;">
+                    <div class="card-body">
+                      <h4 class="card-title">Horario</h4>
+                      <p class="card-text">
+                        Camión Público: <br>
+
+                        Horarios: Salidas cada 30 minutos desde las 7:00 hasta las 14:00 <br>
+                        Costo: Aproximadamente 25 pesos mexicanos por persona.
+                        <br>
+                        Taxi:     <br>                   
+                        Horarios: Disponibles las 24 horas del día. <br>
+                        Costo: Entre 200 y 300 pesos mexicanos por viaje, dependiendo de la distancia. <br>
+                        Tour en Autobús Turístico: <br>
+                        
+                        Horarios: Salida a las 9:00 y regreso a las 16:00. <br>
+                        Costo: Entre 500 y 800 pesos mexicanos por persona. <br>
+                        Colectivo Compartido: <br>
+                        
+                        Horarios: Salen cuando están llenos, generalmente desde las 7:00 hasta las 14:00. <br>
+                        Costo: Alrededor de 30 pesos mexicanos por persona.</p>
+                    </div>
+                  </div>
+                
+                
+                  <div class="card mb-3 items" style="background-color:rgb(135, 212, 142);color: rgb(0, 0, 0); font-size: 15pt;">
+                  <div class="card-body">
+                  <h4 class="card-title">Contacto</h4>
+                  <p class="card-text">
+                    Taxi: <br>
+
+                    Taxi Union Oaxaca: +52 951 516 8500 <br>
+                    Taxi Oaxaca Express: +52 951 207 3870 <br>
+                    Taxis Turísticos Oaxaqueños: +52 951 516 0190 <br> <br>
+                    Tour en Autobús Turístico: <br>
+                    
+                    Oaxaca Expediciones: +52 951 516 1417 <br>
+                    Turismo El Lobo: +52 951 513 3686 <br>
+                    Mexica Tours: +52 951 120 2763</p>
+                </div>
+                </div>
+          
+              </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary btn-closes" data-bs-dismiss="modal">Close</button>
+                      <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+      
+      <script src="script.js"></script>
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

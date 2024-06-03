@@ -1,0 +1,20 @@
+
+.banner1{
+    height: 60vh;
+    background-image: url(https://i.etsystatic.com/24947958/r/il/45813f/3707821517/il_fullxfull.3707821517_d4tl.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.conte{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+h2{
+    font-weight: bold;
+
+}

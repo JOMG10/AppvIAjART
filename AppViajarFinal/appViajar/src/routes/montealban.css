@@ -1,0 +1,61 @@
+.imagen-lugar{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.boton-color {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 1 30%;
+    margin: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
+
+
+  .img-lugares{
+    width: 20%;
+    height: 40%;
+  }
+
+  .card {
+    position: relative;
+  }
+  
+  .card-title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 50px;
+  }
+  .card-body {
+    padding-top: 1em;
+  }
+
+  

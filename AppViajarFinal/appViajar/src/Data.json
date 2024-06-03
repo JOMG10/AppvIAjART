@@ -1,0 +1,34 @@
+{
+    "Lugares": [
+    {
+    "Title": "monteAlban",
+    "Year": "1995",
+    "imdbID": "tt0114709",
+    "Type": "movie",
+    "Poster": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/c0/84/eb/vista-monte-alban.jpg?w=1200&h=1200&s=1"
+    },
+    {
+    "Title": "hierveElAgua",
+    "Year": "2010",
+    "imdbID": "tt0435761",
+    "Type": "movie",
+    "Poster": "https://i0.wp.com/blog.vivaaerobus.com/wp-content/uploads/2020/04/Hierve-el-Agua-Oaxaca.jpg?fit=1050%2C590&ssl=1"
+    },
+    {
+    "Title": "mitla",
+    "Year": "1999",
+    "imdbID": "tt0120363",
+    "Type": "movie",
+    "Poster": "https://lugares.inah.gob.mx/images/zonas/portadas/_thumb1/Grupo_de_la_Iglesia,_Mitla.jpg"
+    },
+    {
+    "Title": "laSoledad",
+    "Year": "2019",
+    "imdbID": "tt1979376",
+    "Type": "movie",
+    "Poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Templo_de_Nuestra_Se%C3%B1ora_de_la_Soledad_Oaxaca.JPG/2560px-Templo_de_Nuestra_Se%C3%B1ora_de_la_Soledad_Oaxaca.JPG"
+    }
+    ],
+    "totalResults": "53",
+    "Response": "True"
+    }
